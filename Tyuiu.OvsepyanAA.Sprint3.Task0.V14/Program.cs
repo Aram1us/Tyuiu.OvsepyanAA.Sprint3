@@ -6,13 +6,15 @@ namespace Tyuiu.OvsepyanAA.Sprint3.Task0.V14
     {
         static void Main(string[] args)
         {
+            DataService ds = new DataService();
+
             Console.Title = "Спринт #3 | Выполнила: Овсепян А.А | СМАРТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Оператор цикла for                                                *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #14                                                             *");
-            Console.WriteLine("* Выполнила: Овсепян Арам Андраникович | ИИПб-23-3                        *");
+            Console.WriteLine("* Выполнила: Овсепян Арам Андраникович | СМАРТб-24-1                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу используя цикл for, которая вычисляет произведение   *");
