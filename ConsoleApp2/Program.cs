@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            Что выведется в результате выполнения следующего кода ?
+
             int x;
             double sp = 1;
             int i = 0;
@@ -11,12 +13,14 @@
             {
                 if (x == 0)
                 {
-                    break;
+                    continue;
                 }
-                sp = sp * (3 * x - 1);
+                sp = sp * (2 * x + 2);
                 i++;
             }
             Console.WriteLine(sp);
+
+
         }
     }
 }
