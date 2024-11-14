@@ -5,36 +5,27 @@
         static void Main(string[] args)
         {
 
-            double s0 = 0;
-            double s1 = 0;
-            int x = 2;
-            for (int j = 1; j <= 3; j++)
+            int x;
+            int sumd = 0;
+            for (x = 4; x <= 8; x++)
             {
-                for (int k = 1; k <= 3; k++)
-
+                for (int d = 1; d <= x; d++)
                 {
-                    s0 = k * x + 2;
-                    s1 += s0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    if (x % d == 0)
+                    {
+                        if (d > 4)
+                        {
+                            {
+                                sumd = sumd + d;
+                            }
+                        }
+                    }
                 }
             }
-            Console.WriteLine(Math.Round(s1, 3));
+                Console.WriteLine(sumd);
 
+            }
         }
     }
-}
+
+
